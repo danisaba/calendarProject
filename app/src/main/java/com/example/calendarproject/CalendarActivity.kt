@@ -14,11 +14,11 @@ class CalendarActivity : AppCompatActivity() {
         val buttonToCalendar : Button = findViewById(R.id.BtnToMakeCalendar)
         val buttonToImport : Button = findViewById(R.id.BtnToImportCalendar)
         buttonToCalendar.setOnClickListener {
-            val intent = Intent(this, newCalendarAddEvents :: class.java)
+            val intent = Intent(this, NewCalendarAddEvents :: class.java)
             startActivity(intent)
         }
         buttonToImport.setOnClickListener {
-            val intent = Intent(this, makeYourOwnCalendar :: class.java)
+            val intent = Intent(this, ImportCalendar :: class.java)
             startActivity(intent)
         }
     }

@@ -3,7 +3,7 @@ package com.example.calendarproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class newCalendarAddEvents : AppCompatActivity() {
+class NewCalendarAddEvents : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -3,10 +3,10 @@ package com.example.calendarproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class makeYourOwnCalendar : AppCompatActivity() {
+class ImportCalendar : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_make_your_own_calendar)
+        setContentView(R.layout.activity_import_calendar)
     }
 }
