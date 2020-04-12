@@ -32,15 +32,14 @@
             android:layout_width="wrap_content"
             android:layout_height="320dp"/>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/set_event"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Set Event"
-            android:textSize="10sp"
-            android:padding="10dp"/>
-
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/set_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Set Event"
+        android:textSize="10sp" />
 
+</LinearLayout>

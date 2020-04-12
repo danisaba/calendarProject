@@ -16,8 +16,8 @@ class NewCalendarAddEvents : AppCompatActivity() {
         set_event.setOnClickListener{
             val intent = Intent(Intent.ACTION_INSERT)
                 .setData(CalendarContract.Events.CONTENT_URI)
-                .putExtra(CalendarContract.Events.TITLE, "event title which will eventually be input")
-                .putExtra(CalendarContract.Events.EVENT_LOCATION, "somewhere")
+                .putExtra(CalendarContract.Events.TITLE, "input event")
+                .putExtra(CalendarContract.Events.EVENT_LOCATION, "Where is this Event?")
                 .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, "begin time")
                 .putExtra(CalendarContract.EXTRA_EVENT_END_TIME, "end time")
 
